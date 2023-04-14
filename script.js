@@ -6,17 +6,17 @@
 //   let message = `ngay: ${date} - ${month} - ${year}`
 // document.write(message);
 //bai tap 2
-// let money = prompt("Hay nhap so tien can vay (trieu):");
-// let percent = prompt("Lai suat vay cua ban la:");
-// let year = prompt("so nam ban vay la:");
-// const ONE_HUNDRED=100;
-// let total = Number(money) + Number((money * (percent/ONE_HUNDRED) * year));
-// let messenger = `<pre><h1> ung dung tinh lai suat ngan hang</h1>
-// so tien ban vay la ${money} trieu
-// so nam gui: ${year}
-// lai suat la: ${percent}%
-// so tien sau ${year} ban se co la ${total} </pre> `
-// document.write(messenger);
+let money = prompt("Hay nhap so tien can vay (trieu):");
+let percent = prompt("Lai suat vay cua ban la:");
+let year = prompt("so nam ban vay la:");
+const ONE_HUNDRED=100;
+let total = Number(money) + Number((money * (percent/ONE_HUNDRED) * year));
+let messenger = `<pre><h1> ung dung tinh lai suat ngan hang</h1>
+so tien ban vay la ${money} trieu
+so nam gui: ${year}
+lai suat la: ${percent}%
+so tien sau ${year} ban se co la ${total} </pre> `
+document.write(messenger);
 
 
 //bai tap 3
